@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>this is act</title>
-  <icon>https://tding.top/icon.png</icon>
+  <icon>https://zhuxiufeng.nl/icon.png</icon>
   <subtitle>好戏登场</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://tding.top/"/>
+  <link href="https://zhuxiufeng.nl/"/>
   <updated>2020-02-28T04:02:17.379Z</updated>
-  <id>https://tding.top/</id>
+  <id>https://zhuxiufeng.nl/</id>
   
   <author>
     <name>秀峰</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>影视台词整理</title>
-    <link href="https://tding.top/archives/832e440e.html"/>
-    <id>https://tding.top/archives/832e440e.html</id>
+    <link href="https://zhuxiufeng.nl/archives/832e440e.html"/>
+    <id>https://zhuxiufeng.nl/archives/832e440e.html</id>
     <published>2020-02-28T11:53:33.000Z</published>
     <updated>2020-02-28T04:02:17.379Z</updated>
     
@@ -36,19 +36,19 @@
     </summary>
     
     
-      <category term="影视台词" scheme="https://tding.top/categories/%E5%BD%B1%E8%A7%86%E5%8F%B0%E8%AF%8D/"/>
+      <category term="影视台词" scheme="https://zhuxiufeng.nl/categories/%E5%BD%B1%E8%A7%86%E5%8F%B0%E8%AF%8D/"/>
     
     
-      <category term="影视" scheme="https://tding.top/tags/%E5%BD%B1%E8%A7%86/"/>
+      <category term="影视" scheme="https://zhuxiufeng.nl/tags/%E5%BD%B1%E8%A7%86/"/>
     
-      <category term="台词" scheme="https://tding.top/tags/%E5%8F%B0%E8%AF%8D/"/>
+      <category term="台词" scheme="https://zhuxiufeng.nl/tags/%E5%8F%B0%E8%AF%8D/"/>
     
   </entry>
   
   <entry>
     <title>历史知识整理</title>
-    <link href="https://tding.top/archives/a119dec2.html"/>
-    <id>https://tding.top/archives/a119dec2.html</id>
+    <link href="https://zhuxiufeng.nl/archives/a119dec2.html"/>
+    <id>https://zhuxiufeng.nl/archives/a119dec2.html</id>
     <published>2020-02-28T11:25:12.000Z</published>
     <updated>2020-02-28T04:09:14.831Z</updated>
     
@@ -65,17 +65,17 @@
     </summary>
     
     
-      <category term="历史知识" scheme="https://tding.top/categories/%E5%8E%86%E5%8F%B2%E7%9F%A5%E8%AF%86/"/>
+      <category term="历史知识" scheme="https://zhuxiufeng.nl/categories/%E5%8E%86%E5%8F%B2%E7%9F%A5%E8%AF%86/"/>
     
     
-      <category term="历史" scheme="https://tding.top/tags/%E5%8E%86%E5%8F%B2/"/>
+      <category term="历史" scheme="https://zhuxiufeng.nl/tags/%E5%8E%86%E5%8F%B2/"/>
     
   </entry>
   
   <entry>
     <title>1984</title>
-    <link href="https://tding.top/archives/7442d689.html"/>
-    <id>https://tding.top/archives/7442d689.html</id>
+    <link href="https://zhuxiufeng.nl/archives/7442d689.html"/>
+    <id>https://zhuxiufeng.nl/archives/7442d689.html</id>
     <published>2020-02-25T00:00:00.000Z</published>
     <updated>2020-02-26T10:17:25.471Z</updated>
     
@@ -100,17 +100,17 @@
     </summary>
     
     
-      <category term="读书笔记" scheme="https://tding.top/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+      <category term="读书笔记" scheme="https://zhuxiufeng.nl/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="乔治·奥威尔" scheme="https://tding.top/tags/%E4%B9%94%E6%B2%BB%C2%B7%E5%A5%A5%E5%A8%81%E5%B0%94/"/>
+      <category term="乔治·奥威尔" scheme="https://zhuxiufeng.nl/tags/%E4%B9%94%E6%B2%BB%C2%B7%E5%A5%A5%E5%A8%81%E5%B0%94/"/>
     
   </entry>
   
   <entry>
     <title>围城</title>
-    <link href="https://tding.top/archives/907dcee7.html"/>
-    <id>https://tding.top/archives/907dcee7.html</id>
+    <link href="https://zhuxiufeng.nl/archives/907dcee7.html"/>
+    <id>https://zhuxiufeng.nl/archives/907dcee7.html</id>
     <published>2020-02-25T00:00:00.000Z</published>
     <updated>2020-02-26T10:17:41.078Z</updated>
     
@@ -135,10 +135,10 @@
     </summary>
     
     
-      <category term="读书笔记" scheme="https://tding.top/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+      <category term="读书笔记" scheme="https://zhuxiufeng.nl/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="钱钟书" scheme="https://tding.top/tags/%E9%92%B1%E9%92%9F%E4%B9%A6/"/>
+      <category term="钱钟书" scheme="https://zhuxiufeng.nl/tags/%E9%92%B1%E9%92%9F%E4%B9%A6/"/>
     
   </entry>
   
