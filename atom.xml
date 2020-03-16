@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zhuxiufeng.nl/"/>
-  <updated>2020-03-16T07:19:28.095Z</updated>
+  <updated>2020-03-16T07:23:34.453Z</updated>
   <id>https://zhuxiufeng.nl/</id>
   
   <author>
@@ -21,19 +21,18 @@
     <link href="https://zhuxiufeng.nl/archives/e19dd596.html"/>
     <id>https://zhuxiufeng.nl/archives/e19dd596.html</id>
     <published>2020-03-16T15:56:33.000Z</published>
-    <updated>2020-03-16T07:19:28.095Z</updated>
+    <updated>2020-03-16T07:23:34.453Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h3 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot; title=&quot;问题描述&quot;&gt;&lt;/a&gt;问题描述&lt;/h3&gt;&lt;p&gt;可用动态规划和贪婪算法&lt;/p&gt;
+      &lt;h3 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot; title=&quot;问题描述&quot;&gt;&lt;/a&gt;问题描述&lt;/h3&gt;&lt;p&gt;可用动态规划和贪婪算法&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;动态规划
-        
-      
+&lt;li&gt;&lt;p&gt;动态规划 用f[V,i]表示从第i,i+1,i+2,…,n-1种饮料中，算出总量为V的方案中满意度之和的最大值。&lt;/p&gt;
+&lt;p&gt;动态规划方程为：f[V,i] = max{k&lt;em&gt;Hi + f[V-k&lt;/em&gt;Vi, i+1]}&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;贪婪算法&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
     
     </summary>
     
