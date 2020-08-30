@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zhuxiufeng.nl/"/>
-  <updated>2020-03-17T07:53:07.220Z</updated>
+  <updated>2020-03-17T08:01:58.528Z</updated>
   <id>https://zhuxiufeng.nl/</id>
   
   <author>
@@ -21,21 +21,12 @@
     <link href="https://zhuxiufeng.nl/archives/e19dd596.html"/>
     <id>https://zhuxiufeng.nl/archives/e19dd596.html</id>
     <published>2020-03-16T15:56:33.000Z</published>
-    <updated>2020-03-17T07:53:07.220Z</updated>
+    <updated>2020-03-17T08:01:58.528Z</updated>
     
     <summary type="html">
     
       &lt;h3 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot; title=&quot;问题描述&quot;&gt;&lt;/a&gt;问题描述&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;可用动态规划和贪婪算法&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;动态规划&lt;/p&gt;
-&lt;p&gt;用f[V,i]表示从第i,i+1,i+2,…,n-1种饮料中，算出总量为V的方案中满意度之和的最大值。动态规划方程为：f[V,i] = max{k&lt;em&gt;Hi + f[V-k&lt;/em&gt;Vi, i+1]}&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;贪婪算法&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;&lt;p&gt;可用动态规划和贪婪算法
     
     </summary>
     
@@ -56,17 +47,21 @@
     <link href="https://zhuxiufeng.nl/archives/832e440e.html"/>
     <id>https://zhuxiufeng.nl/archives/832e440e.html</id>
     <published>2020-02-28T11:53:33.000Z</published>
-    <updated>2020-02-28T04:02:17.379Z</updated>
+    <updated>2020-03-17T08:03:30.657Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h3 id=&quot;风云雄霸天天下&quot;&gt;&lt;a href=&quot;#风云雄霸天天下&quot; class=&quot;headerlink&quot;
-        
-      
+      &lt;h3 id=&quot;风云雄霸天天下&quot;&gt;&lt;a href=&quot;#风云雄霸天天下&quot; class=&quot;headerlink&quot; title=&quot;风云雄霸天天下&quot;&gt;&lt;/a&gt;风云雄霸天天下&lt;/h3&gt;&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;令郎龙腾半生忠于职守，屡建奇功，功在社稷。&lt;/p&gt;
+&lt;p&gt;因于日前，擒捕要犯步惊云之际，功败垂成，命丧步惊云手下，今令其坐骑，驮回遗物与骨灰。&lt;/p&gt;
+&lt;p&gt;顺其生前常言，若有不测，望能回葬故里之志。&lt;/p&gt;
+&lt;p&gt;盼雄帮主得悉后，节哀顺变，安葬令郎骨灰 以遂心愿。&lt;/p&gt;
+&lt;p&gt;我等同感哀悼，顺祝祺安！&lt;/p&gt;
+&lt;p&gt;​                      京畿府衙总督头 郎云泣笔&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
     
     </summary>
     
@@ -85,17 +80,20 @@
     <link href="https://zhuxiufeng.nl/archives/a119dec2.html"/>
     <id>https://zhuxiufeng.nl/archives/a119dec2.html</id>
     <published>2020-02-28T11:25:12.000Z</published>
-    <updated>2020-03-17T07:52:18.928Z</updated>
+    <updated>2020-03-17T08:03:11.148Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h3 id=&quot;太平天国&quot;&gt;&lt;a href=&quot;#太平天国&quot; class=&quot;headerlink&quot;
-        
-      
+      &lt;h3 id=&quot;太平天国&quot;&gt;&lt;a href=&quot;#太平天国&quot; class=&quot;headerlink&quot; title=&quot;太平天国&quot;&gt;&lt;/a&gt;太平天国&lt;/h3&gt;&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;一统山河四十二里半,满朝文武三十六行全&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;梁启超&quot;&gt;&lt;a href=&quot;#梁启超&quot; class=&quot;headerlink&quot; title=&quot;梁启超&quot;&gt;&lt;/a&gt;梁启超&lt;/h3&gt;&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;四水江第一，四时夏第二，老夫居江夏，谁是第一？谁是第二？&lt;br&gt;三教儒在前，三才人在后，小子本儒人,，岂敢在前？岂敢在后？&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
     
     </summary>
     
@@ -112,7 +110,7 @@
     <link href="https://zhuxiufeng.nl/archives/7442d689.html"/>
     <id>https://zhuxiufeng.nl/archives/7442d689.html</id>
     <published>2020-02-25T00:00:00.000Z</published>
-    <updated>2020-03-17T07:52:32.390Z</updated>
+    <updated>2020-03-17T08:03:32.029Z</updated>
     
     <summary type="html">
     
@@ -121,15 +119,6 @@
 &lt;/blockquote&gt;
 &lt;h3 id=&quot;第-2-条笔记：&quot;&gt;&lt;a href=&quot;#第-2-条笔记：&quot; class=&quot;headerlink&quot; title=&quot;第 2 条笔记：&quot;&gt;&lt;/a&gt;第 2 条笔记：&lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;和平部负责战争，真理部负责造谣，友爱部负责拷打，富裕部负责&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&quot;第-3-条笔记：&quot;&gt;&lt;a href=&quot;#第-3-条笔记：&quot; class=&quot;headerlink&quot; title=&quot;第 3 条笔记：&quot;&gt;&lt;/a&gt;第 3 条笔记：&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;党所操心的不是维系血统相传而是维系党的本身的永存。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&quot;第-4-条笔记：&quot;&gt;&lt;a href=&quot;#第-4-条笔记：&quot; class=&quot;headerlink&quot; title=&quot;第 4 条笔记：&quot;&gt;&lt;/a&gt;第 4 条笔记：&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;只要不给他们比较的标淮，他们从来不会意识到自己受压迫。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&quot;第-5-条笔记：&quot;&gt;&lt;a href=&quot;#第-5-条笔记：&quot; class=&quot;headerlink&quot; title=&quot;第 5 条笔记：&quot;&gt;&lt;/a&gt;第 5 条笔记：&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;部分原因在于过去任何政府都没有力量把它的公民置于不断监视之下。但是由于印刷术的发明，操纵舆论就比较容易了，电影和无线电的发明又使这更进一步。接着发明了电视以及可以用同一台电视机同时收发，私生活就宣告结束。对于每一个公民，或者至少每一个值得注意的公民，都可以一天二十四小时把他置于警察的监视之下，让他听到官方的宣传，其他一切交往渠道则统统加以掐断。&lt;/p&gt;
 &lt;/blockquote&gt;
     
     </summary>
@@ -147,7 +136,7 @@
     <link href="https://zhuxiufeng.nl/archives/907dcee7.html"/>
     <id>https://zhuxiufeng.nl/archives/907dcee7.html</id>
     <published>2020-02-25T00:00:00.000Z</published>
-    <updated>2020-02-26T10:17:41.078Z</updated>
+    <updated>2020-03-17T08:03:01.890Z</updated>
     
     <summary type="html">
     
@@ -156,15 +145,6 @@
 &lt;/blockquote&gt;
 &lt;h3 id=&quot;第-2-条笔记：&quot;&gt;&lt;a href=&quot;#第-2-条笔记：&quot; class=&quot;headerlink&quot; title=&quot;第 2 条笔记：&quot;&gt;&lt;/a&gt;第 2 条笔记：&lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;「他在『战时物资委员会』当处长，是新丈人替他谋的差使，这算得女儿嫁妆的一部分。」&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&quot;第-3-条笔记：&quot;&gt;&lt;a href=&quot;#第-3-条笔记：&quot; class=&quot;headerlink&quot; title=&quot;第 3 条笔记：&quot;&gt;&lt;/a&gt;第 3 条笔记：&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;「宁可我做了官，她不配做官太太；不要她想做官太太，逼得我非做官、非做贪官不可。譬如娶了苏文纨，我这次就不能跟你同到三闾大学去了，她要强着我到她爱去的地方去。」 「你真爱到三闾大学去麽？」&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&quot;第-4-条笔记：&quot;&gt;&lt;a href=&quot;#第-4-条笔记：&quot; class=&quot;headerlink&quot; title=&quot;第 4 条笔记：&quot;&gt;&lt;/a&gt;第 4 条笔记：&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;「宁可我做了官，她不配做官太太；不要她想做官太太，逼得我非做官、非做贪官不可。譬如娶了苏文纨，我这次就不能跟你同到三闾大学去了，&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&quot;第-5-条笔记：&quot;&gt;&lt;a href=&quot;#第-5-条笔记：&quot; class=&quot;headerlink&quot; title=&quot;第 5 条笔记：&quot;&gt;&lt;/a&gt;第 5 条笔记：&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;「你这话给我父亲听见，该说『孺子可教』了。可是你将来要做官，这&lt;/p&gt;
 &lt;/blockquote&gt;
     
     </summary>
