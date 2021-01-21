@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>随感</title>
+    <url>/archives/832e440e.html</url>
+    <content><![CDATA[<h1 id="项目开发中的三权分立"><a href="#项目开发中的三权分立" class="headerlink" title="项目开发中的三权分立"></a>项目开发中的三权分立</h1><p>产品提项目需求，相当于国会立法；研发开发项目相当于总统行政；测试部测产品相当于法院司法。不过测试部的权利相对弱了些，最终审判权还在于产品。</p>
+]]></content>
+      <tags>
+        <tag>随想</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>饮料供货(编程之美)</title>
     <url>/archives/e19dd596.html</url>
     <content><![CDATA[<h3 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h3><ul>

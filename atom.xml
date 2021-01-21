@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zhuxiufeng.nl/"/>
-  <updated>2020-03-17T08:01:58.528Z</updated>
+  <updated>2021-01-21T06:07:24.400Z</updated>
   <id>https://zhuxiufeng.nl/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>随感</title>
+    <link href="https://zhuxiufeng.nl/archives/832e440e.html"/>
+    <id>https://zhuxiufeng.nl/archives/832e440e.html</id>
+    <published>2021-01-21T11:53:33.000Z</published>
+    <updated>2021-01-21T06:07:24.400Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;项目开发中的三权分立&quot;&gt;&lt;a href=&quot;#项目开发中的三权分立&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="随想" scheme="https://zhuxiufeng.nl/tags/%E9%9A%8F%E6%83%B3/"/>
+    
+  </entry>
   
   <entry>
     <title>饮料供货(编程之美)</title>
