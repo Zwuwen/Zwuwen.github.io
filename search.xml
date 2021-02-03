@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>排序算法</title>
+    <url>/archives/5865437.html</url>
+    <content><![CDATA[<h1 id="记忆口诀"><a href="#记忆口诀" class="headerlink" title="记忆口诀"></a>记忆口诀</h1><blockquote>
+<p>选泡插，快归堆希，统计基。</p>
+<p>n方，n老，n13。</p>
+<p>对n加K，n乘k。</p>
+<p>不稳稳稳不稳稳。</p>
+<p>不稳不稳稳稳稳。</p>
+<p>​    —— 马士兵</p>
+</blockquote>
+<h1 id="选择排序"><a href="#选择排序" class="headerlink" title="选择排序"></a>选择排序</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>算法</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+        <tag>排序</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>随感</title>
     <url>/archives/832e440e.html</url>
     <content><![CDATA[<h1 id="项目开发中的三权分立"><a href="#项目开发中的三权分立" class="headerlink" title="项目开发中的三权分立"></a>项目开发中的三权分立</h1><p>产品提项目需求，相当于国会立法；研发开发项目相当于总统行政；测试部测产品相当于法院司法。不过测试部的权利相对弱了些，最终可交付审判权还在于产品。</p>
