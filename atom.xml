@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zhuxiufeng.nl/"/>
-  <updated>2021-02-03T08:56:28.750Z</updated>
+  <updated>2021-02-11T15:57:47.769Z</updated>
   <id>https://zhuxiufeng.nl/</id>
   
   <author>
@@ -21,17 +21,50 @@
     <link href="https://zhuxiufeng.nl/archives/5865437.html"/>
     <id>https://zhuxiufeng.nl/archives/5865437.html</id>
     <published>2021-02-03T08:17:33.335Z</published>
-    <updated>2021-02-03T08:56:28.750Z</updated>
+    <updated>2021-02-11T15:57:47.769Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h1 id=&quot;记忆口诀&quot;&gt;&lt;a href=&quot;#记忆口诀&quot; class=&quot;headerlink&quot;
-        
-      
+      &lt;h1 id=&quot;记忆口诀&quot;&gt;&lt;a href=&quot;#记忆口诀&quot; class=&quot;headerlink&quot; title=&quot;记忆口诀&quot;&gt;&lt;/a&gt;记忆口诀&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;选泡插，快归堆希，统计基。&lt;/p&gt;
+&lt;p&gt;n方，n老，n13。&lt;/p&gt;
+&lt;p&gt;对n加K，n乘k。&lt;/p&gt;
+&lt;p&gt;不稳稳稳不稳稳。&lt;/p&gt;
+&lt;p&gt;不稳不稳稳稳稳。&lt;/p&gt;
+&lt;p&gt;​    —— 马士兵&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;时间复杂度&quot;&gt;&lt;a href=&quot;#时间复杂度&quot; class=&quot;headerlink&quot; title=&quot;时间复杂度&quot;&gt;&lt;/a&gt;时间复杂度&lt;/h1&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;排序算法&lt;/th&gt;
+&lt;th&gt;平均时间复杂度&lt;/th&gt;
+&lt;th&gt;最坏时间复杂度&lt;/th&gt;
+&lt;th&gt;空间复杂度&lt;/th&gt;
+&lt;th&gt;是否稳定&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
     
     </summary>
     
@@ -46,11 +79,11 @@
   </entry>
   
   <entry>
-    <title>随感</title>
+    <title>项目开发中的三权分立</title>
     <link href="https://zhuxiufeng.nl/archives/832e440e.html"/>
     <id>https://zhuxiufeng.nl/archives/832e440e.html</id>
     <published>2021-01-21T11:53:33.000Z</published>
-    <updated>2021-01-21T06:18:48.612Z</updated>
+    <updated>2021-02-03T09:05:13.937Z</updated>
     
     <summary type="html">
     
@@ -58,7 +91,7 @@
       
         
         
-          &lt;h1 id=&quot;项目开发中的三权分立&quot;&gt;&lt;a href=&quot;#项目开发中的三权分立&quot; class=&quot;headerlink&quot;
+          &lt;h1 id=&quot;产品研发测试间关系&quot;&gt;&lt;a href=&quot;#产品研发测试间关系&quot; class=&quot;headerlink&quot;
         
       
     
@@ -101,7 +134,7 @@
     <link href="https://zhuxiufeng.nl/archives/832e440e.html"/>
     <id>https://zhuxiufeng.nl/archives/832e440e.html</id>
     <published>2020-02-28T11:53:33.000Z</published>
-    <updated>2021-01-21T06:21:04.170Z</updated>
+    <updated>2021-02-11T16:01:17.883Z</updated>
     
     <summary type="html">
     

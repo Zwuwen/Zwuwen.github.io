@@ -11,7 +11,53 @@
 <p>不稳不稳稳稳稳。</p>
 <p>​    —— 马士兵</p>
 </blockquote>
-<h1 id="选择排序"><a href="#选择排序" class="headerlink" title="选择排序"></a>选择排序</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h1 id="时间复杂度"><a href="#时间复杂度" class="headerlink" title="时间复杂度"></a>时间复杂度</h1><table>
+<thead>
+<tr>
+<th>排序算法</th>
+<th>平均时间复杂度</th>
+<th>最坏时间复杂度</th>
+<th>空间复杂度</th>
+<th>是否稳定</th>
+</tr>
+</thead>
+<tbody><tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<a id="more"></a>
+
+<h1 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h1><h2 id="选择排序"><a href="#选择排序" class="headerlink" title="选择排序"></a>选择排序</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * selection sort</span></span><br><span class="line"><span class="comment"> * @param myList</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">selectionSort</span><span class="params">(<span class="built_in">std</span>::<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; &amp;myList)</span></span>&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> j=<span class="number">0</span>;j!=myList.<span class="built_in">size</span>();++j)&#123;</span><br><span class="line">        <span class="keyword">int</span> minPos = j;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i=j;i!=myList.<span class="built_in">size</span>();++i)&#123;</span><br><span class="line">            <span class="keyword">if</span>(myList[i]&lt;myList[minPos]) &#123;</span><br><span class="line">                minPos = i;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        swapData(myList, j, minPos);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="冒泡排序"><a href="#冒泡排序" class="headerlink" title="冒泡排序"></a>冒泡排序</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> *</span></span><br><span class="line"><span class="comment"> * @param myList</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">bubbleSort</span><span class="params">(<span class="built_in">std</span>::<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; &amp;myList)</span></span>&#123;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i= (<span class="keyword">int</span>)myList.<span class="built_in">size</span>()<span class="number">-1</span>;i!=<span class="number">0</span>;--i)&#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> j=<span class="number">0</span>;j!=i;++j)&#123;</span><br><span class="line">           <span class="keyword">if</span>(myList[j]&gt;myList[j+<span class="number">1</span>])&#123;</span><br><span class="line">               swapData(myList,j,j+<span class="number">1</span>);</span><br><span class="line">           &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="插入排序"><a href="#插入排序" class="headerlink" title="插入排序"></a>插入排序</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> *</span></span><br><span class="line"><span class="comment"> * @param myList</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">insertionSort</span><span class="params">(<span class="built_in">std</span>::<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; &amp;myList)</span></span>&#123;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i!=myList.<span class="built_in">size</span>();++i)&#123;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=i;j!=<span class="number">0</span>;--j)&#123;</span><br><span class="line">            <span class="keyword">if</span>(myList[j]&lt;myList[j<span class="number">-1</span>])&#123;</span><br><span class="line">                swapData(myList,j,j<span class="number">-1</span>);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="快速排序"><a href="#快速排序" class="headerlink" title="快速排序"></a>快速排序</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> *</span></span><br><span class="line"><span class="comment"> * @param myList</span></span><br><span class="line"><span class="comment"> * @param pos1</span></span><br><span class="line"><span class="comment"> * @param pos2</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">qSort</span><span class="params">(<span class="built_in">std</span>::<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; &amp;myList,<span class="keyword">int</span> pos1,<span class="keyword">int</span> pos2)</span></span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span>(pos1&gt;=pos2) <span class="keyword">return</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">int</span> lowBound = pos1, highBound = pos2<span class="number">-1</span>;</span><br><span class="line">    <span class="keyword">while</span> (lowBound &lt;= highBound)&#123;</span><br><span class="line">        <span class="keyword">if</span>(myList[lowBound]&gt;myList[pos2])&#123;</span><br><span class="line">            swapData(myList,lowBound,highBound);</span><br><span class="line">            highBound--;</span><br><span class="line">        &#125; <span class="keyword">else</span>&#123;</span><br><span class="line">            lowBound++;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    swapData(myList,lowBound,pos2);</span><br><span class="line">    qSort(myList,pos1,lowBound<span class="number">-1</span>);</span><br><span class="line">    qSort(myList,lowBound,pos2);</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> *</span></span><br><span class="line"><span class="comment"> * @param myList</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">quickSort</span><span class="params">(<span class="built_in">std</span>::<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; &amp;myList)</span></span>&#123;</span><br><span class="line">    qSort(myList,<span class="number">0</span>,myList.<span class="built_in">size</span>()<span class="number">-1</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="归并排序"><a href="#归并排序" class="headerlink" title="归并排序"></a>归并排序</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> *</span></span><br><span class="line"><span class="comment"> * @param myList</span></span><br><span class="line"><span class="comment"> * @param startPos</span></span><br><span class="line"><span class="comment"> * @param endPos</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">partition</span><span class="params">(<span class="built_in">std</span>::<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; &amp;myList, <span class="keyword">int</span> startPos, <span class="keyword">int</span> endPos)</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> midPos = startPos+ (endPos-startPos)/<span class="number">2</span>;</span><br><span class="line">    <span class="keyword">if</span>(startPos&lt;endPos)&#123;</span><br><span class="line">        partition(myList, startPos, midPos);</span><br><span class="line">        partition(myList, midPos + <span class="number">1</span>, endPos);</span><br><span class="line">        merge(myList,startPos,midPos,endPos);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> *</span></span><br><span class="line"><span class="comment"> * @param myList</span></span><br><span class="line"><span class="comment"> * @param startPos</span></span><br><span class="line"><span class="comment"> * @param midPos</span></span><br><span class="line"><span class="comment"> * @param endPos</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">merge</span><span class="params">(<span class="built_in">std</span>::<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; &amp;myList,<span class="keyword">int</span> startPos,<span class="keyword">int</span> midPos,<span class="keyword">int</span> endPos)</span></span>&#123;</span><br><span class="line">    <span class="built_in">std</span>::<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; tmpList;</span><br><span class="line">    <span class="keyword">int</span> tmpData,part1Pos = startPos, part2Pos = midPos+<span class="number">1</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">while</span>(part1Pos&lt;=midPos &amp;&amp; part2Pos&lt;=endPos)&#123;</span><br><span class="line">        tmpData = myList[part1Pos]&lt;=myList[part2Pos]?myList[part1Pos++]:myList[part2Pos++];</span><br><span class="line">        tmpList.push_back(tmpData);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">while</span> (part1Pos&lt;=midPos)&#123;</span><br><span class="line">        tmpList.push_back(myList[part1Pos++]);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">while</span> (part2Pos&lt;=endPos)&#123;</span><br><span class="line">        tmpList.push_back(myList[part2Pos++]);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=startPos;i&lt;=endPos;++i)&#123;</span><br><span class="line">        myList[i]= tmpList[i-startPos];</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> *</span></span><br><span class="line"><span class="comment"> * @param myList</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">mergeSort</span><span class="params">(<span class="built_in">std</span>::<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; &amp; myList)</span></span>&#123;</span><br><span class="line">    partition(myList,<span class="number">0</span>,myList.<span class="built_in">size</span>()<span class="number">-1</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="希尔排序"><a href="#希尔排序" class="headerlink" title="希尔排序"></a>希尔排序</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * </span></span><br><span class="line"><span class="comment"> * @param myList </span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">shellSort</span><span class="params">(<span class="built_in">std</span>::<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;&amp; myList)</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> listSize = myList.<span class="built_in">size</span>();</span><br><span class="line"></span><br><span class="line">    <span class="keyword">int</span> interval = listSize;</span><br><span class="line">    <span class="keyword">while</span> (interval/=<span class="number">3</span>)&#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> k=<span class="number">0</span>;k!=interval;k++)&#123;</span><br><span class="line">            <span class="keyword">for</span>(<span class="keyword">int</span> i=interval+k;i&lt;listSize;i+=interval)&#123;</span><br><span class="line">                <span class="keyword">for</span> (<span class="keyword">int</span> j=i;j&gt;k;j-=interval)&#123;</span><br><span class="line">                    <span class="keyword">if</span>(myList[j]&lt;myList[j-interval])&#123;</span><br><span class="line">                        swapData(myList,j,j-interval);</span><br><span class="line">                    &#125;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 ]]></content>
       <categories>
@@ -23,9 +69,9 @@
       </tags>
   </entry>
   <entry>
-    <title>随感</title>
+    <title>项目开发中的三权分立</title>
     <url>/archives/832e440e.html</url>
-    <content><![CDATA[<h1 id="项目开发中的三权分立"><a href="#项目开发中的三权分立" class="headerlink" title="项目开发中的三权分立"></a>项目开发中的三权分立</h1><p>产品提项目需求，相当于国会立法；研发开发项目相当于总统行政；测试部测产品相当于法院司法。不过测试部的权利相对弱了些，最终可交付审判权还在于产品。</p>
+    <content><![CDATA[<h1 id="产品研发测试间关系"><a href="#产品研发测试间关系" class="headerlink" title="产品研发测试间关系"></a>产品研发测试间关系</h1><p>产品提项目需求，相当于国会立法；研发开发项目相当于总统行政；测试部测产品相当于法院司法。不过测试部的权利相对弱了些，最终可交付审判权还在于产品。</p>
 ]]></content>
       <tags>
         <tag>随想</tag>
@@ -89,6 +135,12 @@
 </ol>
 </blockquote>
 <a id="more"></a>
+
+<h2 id="水浒传"><a href="#水浒传" class="headerlink" title="水浒传"></a>水浒传</h2><blockquote>
+<ol>
+<li>小小药铺，萤火之光，照人不亮。恐误了足下的前程，也怕涂抹了荐你来我这人的美意啊。</li>
+</ol>
+</blockquote>
 ]]></content>
       <categories>
         <category>影视台词</category>
